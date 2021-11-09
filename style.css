@@ -1,0 +1,242 @@
+
+header {
+    width: 100%;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar {
+    background-color: #0db4bd;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand {
+    width: 50%;
+    margin-left: 8em;
+}
+.navbar-collapse {
+    margin-left: 40px;
+    margin-right: 60px ;
+}
+.nav-item {
+    padding: 12px;
+    color: white;
+}
+.nav-item:hover {
+    background-color: #5ecefa;
+}
+.page-wrapper {
+    min-height: 100%;
+}
+.carousel {
+    margin-top: 3em;
+    position: relative;
+}
+.carousel .carousel-inner {
+    width: 85%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px;
+}
+.slider-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 300px;
+    border-radius: 5px;
+}
+.carousel-indicators {
+    margin-bottom: 3em;
+}
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    padding: 1px;
+    margin: 0px 5px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 35%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 1.5rem;
+}
+.text {
+    min-height: 100%; 
+}
+.text .texthead, 
+.container {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+    width: 85%;
+}
+hr {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1.3rem;
+}
+.paragrah {
+    width: 70%;
+    font-size: x-small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contents {
+    min-height: 100%;
+}
+.texthead h5 {
+    padding: 10px;
+}
+.fa-heart,
+.fa-desktop,
+.fa-location-arrow {
+    font-size: 150%;
+    padding: 15px;
+    color: #0db4bd;
+}
+.col-sm p {
+    font-size: x-small;
+    margin-bottom: 2rem;
+}
+.col-sm button {
+    padding: 8px;
+    font-size: 65%;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+}
+.container .title1 {
+    color: #0db4bd;
+    font-size: 130%;
+    margin-bottom: 2rem;
+}
+.row .paragrah {
+    width: 85%;
+    font-size: 75%;
+    text-align: left;
+    color: #a1a1a1;
+}
+.container .title2 {
+    font-size: 125%;
+    margin-bottom: 1rem;
+}
+.container ul li {
+    padding: 8px;
+    font-size: 80%;
+    list-style: none;
+    text-align: left;
+    border-bottom: 1px solid #a1a1a11c;
+    color: #a1a1a1;
+}
+.container .title3 {
+    font-size: 125%;
+    margin-bottom: 2rem;
+}
+.container .details {
+    margin-left: 1rem; 
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-weight: lighter;
+    font-size: 80%;
+    color: #a1a1a1;
+}
+.details i {
+    color: #5f5f5f;
+}
+.page-footer {
+    background-color: #0db4bd;
+    color: white;
+}
+footer .col-lg-8 {
+    width: 45%;
+    font-size: 90%;
+}
+footer .fab {
+    padding: 7px;
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg {
+        padding: 15px;    
+    }
+    .carousel .carousel-inner {
+        width: 90%;
+        height: 270px;
+    }
+    .carousel {
+        margin-bottom: 2rem;
+    }
+    .slider-image {
+        width: 90%;
+        height: 270px;
+    }
+    .navbar-brand {
+        margin-left: 2.5em;
+    }
+    .carousel-indicators {
+        margin-bottom: 1rem;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 27%;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 3px;
+        height: 3px;
+    }
+    .paragrah {
+        width: 80%;
+    }
+}
+@media (max-width: 750px) {
+    footer .col-lg-8 {
+        width: 100%;
+    }
+}
+@media (max-width: 574px) {
+
+    .navbar-expand-lg {
+        padding: 10px;    
+    }
+    .navbar-brand {
+        margin-left: 1.5em;
+    }
+    .carousel .carousel-inner {
+        width: 95%;
+        height: 200px;
+    }
+    .slider-image {
+        width: 100%;
+        height: 200px;
+    }
+    .carousel-indicators {
+        margin-bottom: 1rem;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 15%;
+    }
+    .paragrah {
+        width: 95%;
+    }
+    .row .paragrah {
+        width: 100%;
+    }
+}
